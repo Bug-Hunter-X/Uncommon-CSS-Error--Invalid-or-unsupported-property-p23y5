@@ -1,0 +1,4 @@
+The solution involves identifying the unsupported or invalid property and replacing it with a valid alternative or removing it if not crucial. Check browser compatibility using resources like Can I Use (https://caniuse.com/) and use Autoprefixer (https://github.com/postcss/autoprefixer) or similar tools to add necessary vendor prefixes automatically.  If a property is deprecated, consult CSS specifications to find its modern equivalent.
+
+Example:
+Replace `-webkit-border-radius` (which may only work in older WebKit-based browsers) with the standard `border-radius` property.
